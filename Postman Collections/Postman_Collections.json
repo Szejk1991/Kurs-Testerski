@@ -1012,6 +1012,18 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "checkitem do done",
+			"id": "ed96b973-d59b-44a7-b465-99c3b2e9b362",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
