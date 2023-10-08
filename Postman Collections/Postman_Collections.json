@@ -1055,20 +1055,54 @@
 			"response": []
 		},
 		{
-			"name": "label do inprogres",
-			"id": "0e4bff66-94ca-4e13-98c9-210a01d6419a",
+			"name": "id lalbel inprogres",
+			"id": "d22c6413-5c76-4d99-b886-b626eda311cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/6522ae1c5097d7e48f603282/labels?color=red&key={{APIKey}}&token={{APIToken}}&name=label red",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"6522ae1c5097d7e48f603282",
+						"labels"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "red"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{APIToken}}"
+						},
+						{
+							"key": "name",
+							"value": "label red",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		},
 		{
-			"name": "id lalbel inprogres",
-			"id": "d22c6413-5c76-4d99-b886-b626eda311cc",
+			"name": "description on board",
+			"id": "9a4a68ec-0dcb-45c2-965c-5062fa4c7eb2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
